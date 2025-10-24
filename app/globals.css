@@ -19,8 +19,8 @@ html {
 }
 
 body {
-  background-color: #0A0F1F;
-  color: #E9DCC9;
+  background-color: #FAF9F6; /* Ivory White - Light Mode */
+  color: #1E1E1E; /* Charcoal Gray - Primary Text */
   font-family: var(--font-instrument-sans);
   overflow-x: hidden;
 }
@@ -31,7 +31,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0A0F1F;
+  background: #FAF9F6;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -51,11 +51,19 @@ body {
   background-clip: text;
 }
 
-/* Geometric pattern background */
+/* Andalusian Geometric Pattern - Light Mode */
 .geometric-pattern {
+  background-color: #FAF9F6;
   background-image:
-    radial-gradient(circle at 20% 50%, rgba(52, 209, 191, 0.05) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(198, 167, 112, 0.05) 0%, transparent 50%);
+    radial-gradient(circle at 20% 50%, rgba(52, 209, 191, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(198, 167, 112, 0.08) 0%, transparent 50%);
+}
+
+/* Andalusian lattice pattern overlay */
+.andalusian-lattice {
+  background-image:
+    repeating-linear-gradient(45deg, rgba(155, 186, 179, 0.05) 0px, transparent 1px, transparent 10px),
+    repeating-linear-gradient(-45deg, rgba(198, 167, 112, 0.05) 0px, transparent 1px, transparent 10px);
 }
 
 /* Animated glow effect */

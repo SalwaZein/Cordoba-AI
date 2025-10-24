@@ -9,9 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        // Light Mode Palette - "The Andalusian Light"
+        ivory: "#FAF9F6",          // Primary background
+        verdigris: "#34D1BF",      // Accent 1 - Mint
+        brass: "#C6A770",          // Accent 2 - Gold
+        sand: "#E9DCC9",           // Accent 3 - Pale Beige
+        charcoal: "#1E1E1E",       // Text Primary
+        warmGray: "#555555",       // Text Secondary
+        mutedTeal: "#9BBAB3",      // Lines & Ornaments
+
+        // Legacy colors (for backwards compatibility)
         midnight: "#0A0F1F",
-        verdigris: "#34D1BF",
-        brass: "#C6A770",
         alabaster: "#E9DCC9",
       },
       fontFamily: {
