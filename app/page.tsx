@@ -2,8 +2,6 @@ import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import CoreServiceSection from "@/components/CoreServiceSection";
 import HowItWorksSection from "@/components/HowItWorksSection";
-import MindsetSection from "@/components/MindsetSection";
-import ShowcaseSection from "@/components/ShowcaseSection";
 import QuoteSection from "@/components/QuoteSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
@@ -21,8 +19,6 @@ export default function Home() {
         <CoreServiceSection />
       </div>
       <HowItWorksSection />
-      <MindsetSection />
-      <ShowcaseSection />
       <QuoteSection />
       <div id="cta">
         <CTASection />
